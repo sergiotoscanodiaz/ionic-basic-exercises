@@ -1,0 +1,19 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title>exercise03</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+
+  <div class="center">
+    <ion-button (click)="decrementValue()" color="secondary">-</ion-button>
+    <ion-button (click)="newRandomValue()" color="success">Random</ion-button>
+    <ion-button (click)="incrementValue()" color="secondary">+</ion-button>
+  </div>
+  <h1>{{ n }}</h1>
+
+  <ion-button (click)="resetValue()"
+  expand="full">reset</ion-button>
+
+</ion-content>

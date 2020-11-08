@@ -1,0 +1,23 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title>exercise01</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content class="ion-padding">
+
+  <ion-button
+    (click)="showName()"
+    expand="full">
+    Muestra nombre
+  </ion-button>
+
+  <ion-button
+    (click)="cleanName()"
+    expand="full">
+    Limpia pantalla
+  </ion-button>
+
+  <h1 text-center>{{ name }}</h1>
+
+</ion-content>

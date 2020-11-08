@@ -1,0 +1,17 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title>exercise07</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <ion-item>
+    <ion-label>Pesetas</ion-label>
+    <ion-input clearInput [(ngModel)]="pts" (keyup)="updateEuros()"></ion-input>
+  </ion-item>
+
+  <ion-item>
+    <ion-label>Euros</ion-label>
+    <ion-input clearInput [(ngModel)]="eur" (keyup)="updatePts()"></ion-input>
+  </ion-item>
+</ion-content>
